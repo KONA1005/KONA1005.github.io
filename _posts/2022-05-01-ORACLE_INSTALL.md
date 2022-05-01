@@ -1,5 +1,5 @@
 ---
-title: "[INSTALL]ORACLE설치하기!"
+title: " [INSTALL] ORACLE설치하기!"
 date: 2022-05-01
 categories: INSTALL
 ---
