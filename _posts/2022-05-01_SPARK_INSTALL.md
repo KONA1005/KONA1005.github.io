@@ -1,4 +1,8 @@
-# 20220419
+---
+title: " [INSTALL] SPARK 설치,셋팅하기 "
+date: 2022-05-01
+categories: INSTALL
+
 
 # 1. 우선적으로 다운로드할 목록
 
