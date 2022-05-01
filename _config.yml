@@ -102,8 +102,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "kona"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "KONA"
+  avatar           : "\images\simpson.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person. may be"
   location         : "Seoul"
   email            :
