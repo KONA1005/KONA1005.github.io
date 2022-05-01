@@ -1,4 +1,8 @@
-# 20220425
+---
+title: "[INSTALL]ORACLE설치하기!"
+date: 2022-05-01
+categories: INSTALL
+---
 
 # 오라클 설치
 
