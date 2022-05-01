@@ -1,3 +1,9 @@
+---
+title: "[SETTING]윈도우_가상환경만들기"
+date: 2022-05-01
+categories: SETTING
+---
+
 # 가상환경 만들기_윈도우
 
 ![Untitled](/images/WINDOW_venv/Untitled.png)
