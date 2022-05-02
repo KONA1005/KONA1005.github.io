@@ -4,33 +4,30 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 # Site Settings
-locale                   : "en-US"
-title                    : "HI IM KONA :-)"
+locale                   : "ko-KR"
+title                    : "HI IM KONA :-) "
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "KONA"
-description              : "To infinity And Beyond."
-url                      : "https://KONA1005.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : ""# the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+description              : "To infinity And Beyond"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "KONA1005/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,8 +38,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -59,8 +56,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : false # false (default)
+search_full_content      : false # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -76,7 +73,6 @@ bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
-
 # Social Sharing
 twitter:
   username               :
@@ -91,65 +87,59 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
-
-
 # Site Author
 author:
   name             : "KONA"
   avatar           : "/images/simpson.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person. may be"
-  location         : "Seoul"
+  bio              :  "I am an **amazing** person. may be"
+  # location         : "Somewhere"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+   # - label: "Email"
+     # icon: "fas fa-fw fa-envelope-square"
+      # url: "rlalastjd782@naver.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/KONA1005"
+   # - label: "Twitter"
+   #   icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+   # - label: "Facebook"
+   #   icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+   # - label: "GitHub"
+   #   icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+     # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    #- label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
+    - label: "GitLab" 
       icon: "fab fa-fw fa-gitlab"
+      url: "https://KONA1005.github.io/" # 내주소
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+   # - label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
-
 # Reading Files
 include:
   - .htaccess
@@ -186,16 +176,12 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -206,21 +192,15 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -228,7 +208,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -236,8 +215,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -265,16 +242,12 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-
 # Defaults
 defaults:
   # _posts

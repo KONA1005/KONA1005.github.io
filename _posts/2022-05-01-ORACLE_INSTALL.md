@@ -199,3 +199,5 @@ imp ora_user/kona file=expcust.dmp log=expcust.log ignore=y grants=y rows=y inde
 ![Untitled](/images/2022-05-01-ORACLE_INSTALL/Untitled%2042.png)
 
 - 이렇게 나오면 설치가 끝났다.
+
+
