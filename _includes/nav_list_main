@@ -1,0 +1,52 @@
+{% assign sum = site.posts | size %}
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            :열린_파일_폴더: <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style>
+      </li>
+      <li>
+        <span class="nav__sub-title">Python</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/Python" class="">Python ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">INSTALL</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "INSTALL" %}
+                        <li><a href="/categories/INSTALL" class="">INSTALL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Pyspark</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Pyspark" %}
+                        <li><a href="/categories/Pyspark" class="">Pyspark ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Vscode</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Vscode" %}
+                        <li><a href="/categories/Vscode" class="">Vscode ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">Oracle</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Oracle" %}
+                        <li><a href="/categories/Oracle" class="">Oracle ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+         </li>
+  </ul>
+</nav>
