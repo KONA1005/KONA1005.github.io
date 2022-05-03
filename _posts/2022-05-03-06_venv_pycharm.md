@@ -1,7 +1,7 @@
 ---
 title: " [가상환경] 파이참 "
 date: 2022-05-03-06 
-categories: 가상환경
+categories: VENV
 ---
 
 # 가상환경 만들기_파이참

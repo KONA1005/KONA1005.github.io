@@ -1,7 +1,7 @@
 ---
-title: "가상환경"
+title: "VENV"
 layout: archive
-permalink: /categories/가상환경
+permalink: /categories/VENV
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.가상환경 %}
+{% assign posts = site.categories.VENV %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
