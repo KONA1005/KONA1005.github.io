@@ -1,7 +1,7 @@
 ---
-title: "Pyspark"
+title: "SETTING"
 layout: archive
-permalink: categories/Pyspark
+permalink: categories/SETTING
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Pyspark %}
+{% assign posts = site.categories.SETTING %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

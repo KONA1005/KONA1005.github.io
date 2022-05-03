@@ -26,11 +26,11 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Pyspark</span>
+        <span class="nav__sub-title">SETTING</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Pyspark" %}
-                        <li><a href="/categories/Pyspark" class="">Pyspark ({{category[1].size}})</a></li>
+                    {% if category[0] == "SETTING" %}
+                        <li><a href="/categories/Pyspark" class="">SETTING ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
