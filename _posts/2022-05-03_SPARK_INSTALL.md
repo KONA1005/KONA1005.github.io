@@ -1,6 +1,6 @@
 ---
 title: " [INSTALL] SPARK 설치,셋팅하기 "
-date: 2022-05-03
+date: 2022-05-03 
 categories: INSTALL, SETTING
 ---
 

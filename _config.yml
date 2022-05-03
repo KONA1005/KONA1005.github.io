@@ -257,9 +257,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false # 읽는데 걸리는 시간 표시
       comments: true
       share: true
       related: true
       mathjax: true
       sidebar_main: true
+      show_data: true # 포스팅 날짜 표시
