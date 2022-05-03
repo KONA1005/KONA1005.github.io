@@ -35,11 +35,11 @@
                 {% endfor %}
             </ul>
             
-        <span class="nav__sub-title">Vscode</span>
+        <span class="nav__sub-title">BLOG</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Vscode" %}
-                        <li><a href="/categories/Vscode" class="">Vscode ({{category[1].size}})</a></li>
+                    {% if category[0] == "BLOG" %}
+                        <li><a href="/categories/BLOG" class="">BLOG ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
