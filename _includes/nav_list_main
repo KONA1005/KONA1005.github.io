@@ -54,7 +54,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "JAVA" %}
-                        <li><a href="/categories/JAVA" class="">SQL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/JAVA" class="">JAVA ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
