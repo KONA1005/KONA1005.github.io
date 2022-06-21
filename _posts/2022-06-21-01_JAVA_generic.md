@@ -1,6 +1,6 @@
 ---
 title: " [JAVA] 자바 제네릭1 "
-date: 2022-06-20-01
+date: 2022-06-21-01
 categories: JAVA
 ---
 
