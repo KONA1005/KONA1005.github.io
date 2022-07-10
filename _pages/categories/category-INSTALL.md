@@ -1,7 +1,7 @@
 ---
-title: "INSTALL"
+title: "Frontend"
 layout: archive
-permalink: categories/INSTALL
+permalink: categories/Frontend
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.INSTALL %}
+{% assign posts = site.categories.Frontend%}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

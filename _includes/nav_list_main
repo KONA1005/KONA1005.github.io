@@ -17,11 +17,11 @@
                 {% endfor %}
             </ul>
             
-        <span class="nav__sub-title">INSTALL</span>
+        <span class="nav__sub-title">Frontend</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "INSTALL" %}
-                        <li><a href="/categories/INSTALL" class="">INSTALL ({{category[1].size}})</a></li>
+                    {% if category[0] == "Frontend" %}
+                        <li><a href="/categories/FrontendL" class="">Frontend ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
